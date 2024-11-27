@@ -6,6 +6,10 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome To Chai Or Code" });
 });
 
+app.get("/login", (req, res) => {
+  res.send("Login Done");
+});
+
 app.get("/health", (req, res) => {
   res.json({ message: "App is working fine..." });
 });
