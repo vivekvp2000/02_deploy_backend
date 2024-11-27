@@ -1,0 +1,16 @@
+{
+  "name": "02_deploy_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch --env-file=.env --no-warnings index.js"
+  },
+  "keywords": [],
+  "author": "Vivek",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
